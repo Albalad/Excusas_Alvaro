@@ -3,9 +3,24 @@
   <head>
     <title>Generador de excusas</title>
   </head>
-  <body>
-    <h1>¡Dios mio! no me vas a creer pero...</h1>
-    <h1 id="excusa"></h1>
+  <body class="container-fluid d-flex">
+    <div
+      class="position-absolute top-50 start-50 translate-middle card border border-info border border-4"
+    >
+      <div class="formato">
+        <h1 class="text-center">¡Dios mio! no me vas a creer pero...</h1>
+        <h1 class="text-center" id="excusa"></h1>
+      </div>
+      <div class="row justify-content-center formato2">
+        <button
+          type="button"
+          class="btn btn-outline-success col-md-4"
+          id="actualizador"
+        >
+          Genera otra excusa
+        </button>
+      </div>
+    </div>
     <script type="text/javascript" src="./app.js"></script>
   </body>
 </html>
