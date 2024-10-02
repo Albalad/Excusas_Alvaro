@@ -1,1 +1,11 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+#excusa {
+  color: red;
+}
+
+.formato {
+  padding: 10px;
+}
+
+.formato2 {
+  padding-bottom: 10px;
+}
