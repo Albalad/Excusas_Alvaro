@@ -1,3 +1,5 @@
+import "./style.css";
+
 // Arrays con palabras
 let Quien = [
   "4Geeks ",
